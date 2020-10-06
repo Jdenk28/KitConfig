@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no viewport-fit=cover">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+        
+        <title>Finish Selector</title>
+    </head>
+
+    <body>
+        <nav class="container position-fixed" id="accordion">
+            <div class="row pt-3">
+                <div class="col-auto">
+                    <button class="btn btn-dark btn-block" type="button" data-toggle="collapse" data-target="#cabinet-dropdown" aria-expanded="false" aria-controls="cabinet-dropdown">Cabinet</button>
+                    <button class="btn btn-dark btn-block" type="button" data-toggle="collapse" data-target="#island-dropdown" aria-expanded="false" aria-controls="island-dropdown">Island</button>
+                    <button class="btn btn-dark btn-block" type="button" data-toggle="collapse" data-target="#countertop-dropdown" aria-expanded="false" aria-controls="countertop-dropdown">Counter Top</button>
+                    <button class="btn btn-dark btn-block" type="button" data-toggle="collapse" data-target="#backsplash-dropdown" aria-expanded="false" aria-controls="backsplash-dropdown">Backsplash</button>
+                    <button class="btn btn-dark btn-block" type="button" data-toggle="collapse" data-target="#floor-dropdown" aria-expanded="false" aria-controls="floor-dropdown">Floor</button>
+                    <button class="btn btn-dark btn-block" type="button" data-toggle="collapse" data-target="#oven-dropdown" aria-expanded="false" aria-controls="oven-dropdown">Oven</button>
+                    <button class="btn btn-dark btn-block" type="button" data-toggle="collapse" data-target="#fridge-dropdown" aria-expanded="false" aria-controls="fridge-dropdown">Refrigerator</button>
+                    <button class="btn btn-dark btn-block" type="button" data-toggle="collapse" data-target="#hood-dropdown" aria-expanded="false" aria-controls="hood-dropdown">Hood</button>
+                </div>
+
+                <div class="col-2">
+                    <div id="cabinet-dropdown" class="collapse" data-parent="#accordion">
+                        <div data-toggle="tooltip" data-placement="right" title="Studio Teak"><a href="#"><img class="img-fluid border border-dark rounded-lg mb-2" src="resources/img/cabinet_1_thumb.png" id="cabinet_1"></a></div>
+                        <div data-toggle="tooltip" data-placement="right" title="Portico Teak"><a href="#"><img class="img-fluid border border-dark rounded-lg mb-2" src="resources/img/cabinet_2_thumb.png" id="cabinet_2"></a></div>
+                        <div data-toggle="tooltip" data-placement="right" title="Sable Line"><a href="#"><img class="img-fluid border border-dark rounded-lg mb-2" src="resources/img/cabinet_3_thumb.png" id="cabinet_3"></a></div>
+                    </div>
+
+                    <div id="island-dropdown" class="collapse" data-parent="#accordion">
+                        <div data-toggle="tooltip" data-placement="right" title="Medium Grey"><a href="#"><img class="img-fluid border border-dark rounded-lg mb-2" src="resources/img/island_1_thumb.png" id="island_1"></a></div>
+                        <div data-toggle="tooltip" data-placement="right" title="Charcoal"><a href="#"><img class="img-fluid border border-dark rounded-lg mb-2" src="resources/img/island_2_thumb.png" id="island_2"></a></div>
+                        <div data-toggle="tooltip" data-placement="right" title="Bright White"><a href="#"><img class="img-fluid border border-dark rounded-lg mb-2" src="resources/img/island_3_thumb.png" id="island_3"></a></div>
+                    </div> 
+
+                    <div id="countertop-dropdown" class="collapse" data-parent="#accordion">
+                        <div data-toggle="tooltip" data-placement="right" title="Santiago"><a href="#"><img class="img-fluid border border-dark rounded-lg mb-2" src="resources/img/countertop_1_thumb.png" id="countertop_1"></a></div>
+                        <div data-toggle="tooltip" data-placement="right" title="Versailles"><a href="#"><img class="img-fluid border border-dark rounded-lg mb-2" src="resources/img/countertop_2_thumb.png" id="countertop_2"></a></div>
+                        <div data-toggle="tooltip" data-placement="right" title="Viaggio"><a href="#"><img class="img-fluid border border-dark rounded-lg mb-2" src="resources/img/countertop_3_thumb.png" id="countertop_3"></a></div>
+                    </div>
+
+                    <div id="backsplash-dropdown" class="collapse" data-parent="#accordion">
+                        <div data-toggle="tooltip" data-placement="right" title="Carrara Ceramic"><a href="#"><img class="img-fluid border border-dark rounded-lg mb-2" src="resources/img/backsplash_1_thumb.png" id="backsplash_1"></a></div>
+                        <div data-toggle="tooltip" data-placement="right" title="Alaska Grey Subway"><a href="#"><img class="img-fluid border border-dark rounded-lg mb-2" src="resources/img/backsplash_2_thumb.png" id="backsplash_2"></a></div>
+                        <div data-toggle="tooltip" data-placement="right" title="Angora Mosaic"><a href="#"><img class="img-fluid border border-dark rounded-lg mb-2" src="resources/img/backsplash_3_thumb.png" id="backsplash_3"></a></div>
+                    </div>         
+
+                    <div id="floor-dropdown" class="collapse" data-parent="#accordion">
+                        <div data-toggle="tooltip" data-placement="right" title="Vertigo"><a href="#"><img class="img-fluid border border-dark rounded-lg mb-2" src="resources/img/floor_1_thumb.png" id="floor_1"></a></div>
+                        <div data-toggle="tooltip" data-placement="right" title="Terracotta"><a href="#"><img class="img-fluid border border-dark rounded-lg mb-2" src="resources/img/floor_2_thumb.png" id="floor_2"></a></div>
+                        <div data-toggle="tooltip" data-placement="right" title="Pearl Soapstone"><a href="#"><img class="img-fluid border border-dark rounded-lg mb-2" src="resources/img/floor_3_thumb.png" id="floor_3"></a></div>
+                    </div>
+
+                    <div id="oven-dropdown" class="collapse" data-parent="#accordion">
+                        <div data-toggle="tooltip" data-placement="right" title="E Series Transitional Built-In Double Oven"><a href="#"><img class="img-fluid border border-dark rounded-lg mb-2" src="resources/img/oven_1_thumb.png" id="oven_1"></a></div>
+                        <div data-toggle="tooltip" data-placement="right" title="M Series Professional Built-In Double Oven"><a href="#"><img class="img-fluid border border-dark rounded-lg mb-2" src="resources/img/oven_2_thumb.png" id="oven_2"></a></div>
+                        <div data-toggle="tooltip" data-placement="right" title="E Series Contemporary Built-In Double Oven"><a href="#"><img class="img-fluid border border-dark rounded-lg mb-2" src="resources/img/oven_3_thumb.png" id="oven_3"></a></div>
+                    </div> 
+
+                    <div id="fridge-dropdown" class="collapse" data-parent="#accordion">
+                        <div data-toggle="tooltip" data-placement="right" title="Classic French Door Refrigerator"><a href="#"><img class="img-fluid border border-dark rounded-lg mb-2" src="resources/img/fridge_1_thumb.png" id="fridge_1"></a></div>
+                        <div data-toggle="tooltip" data-placement="right" title="Classic Side-by-Side Refrigerator"><a href="#"><img class="img-fluid border border-dark rounded-lg mb-2" src="resources/img/fridge_2_thumb.png" id="fridge_2"></a></div>
+                    </div>         
+
+                    <div id="hood-dropdown" class="collapse" data-parent="#accordion">
+                        <div data-toggle="tooltip" data-placement="right" title="D Series Island Hood"><a href="#"><img class="img-fluid border border-dark rounded-lg mb-2" src="resources/img/hood_1_thumb.png" id="hood_1"></a></div>
+                        <div data-toggle="tooltip" data-placement="right" title="M Series Island Hood"><a href="#"><img class="img-fluid border border-dark rounded-lg mb-2" src="resources/img/hood_2_thumb.png" id="hood_2"></a></div>
+                        <div data-toggle="tooltip" data-placement="right" title="E Series Island Hood"><a href="#"><img class="img-fluid border border-dark rounded-lg mb-2" src="resources/img/hood_3_thumb.png" id="hood_3"></a></div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="container-fluid pl-0">
+            <div class="row">
+                <div class="col">
+                    <div id="extra"><img class="img-portrait img-landscape" src="resources/img/extra.png"></div>
+                    <div id="hood"><img class="img-portrait img-landscape" src="resources/img/hood_1.png" id="hood_img"></div>
+                    <div id="fridge"><img class="img-portrait img-landscape" src="resources/img/fridge_1.png" id="fridge_img"></div>
+                    <div id="countertop"><img class="img-portrait img-landscape" src="resources/img/countertop_1.png" id="countertop_img"></div>
+                    <div id="island"><img class="img-portrait img-landscape" src="resources/img/island_1.png" id="island_img"></div>
+                    <div id="oven"><img class="img-portrait img-landscape" src="resources/img/oven_1.png" id="oven_img"></div>
+                    <div id="cabinet"><img class="img-portrait img-landscape" src="resources/img/cabinet_1.png" id="cabinet_img"></div>
+                    <div id="backsplash"><img class="img-portrait img-landscape" src="resources/img/backsplash_1.png" id="backsplash_img"></div>
+                    <div id="floor"><img class="img-portrait img-landscape" src="resources/img/floor_1.png" id="floor_img"></div>
+                    <div id="background"><img class="img-portrait img-landscape" src="resources/img/background.png"></div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="resources/js/script.js"></script>
+    </body>
+    
+</html>

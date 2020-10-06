@@ -1,0 +1,63 @@
+@media only screen and (orientation: portrait) {
+  .img-portrait {
+    width: auto;
+    height: 100%;
+  }
+}
+
+@media only screen and (orientation: landscape) {
+  .img-landscape {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+#background {
+    position: absolute;
+    z-index: -10;
+}
+
+#extra {
+    position: absolute;
+    z-index: -1;
+}
+
+#hood {
+    position: absolute;
+    z-index: -2;
+}
+
+#fridge {
+    position: absolute;
+    z-index: -3;
+}
+
+#countertop {
+    position: absolute;
+    z-index: -4;
+}
+
+#island {
+    position: absolute;
+    z-index: -5;
+}
+
+#oven {
+    position: absolute;
+    z-index: -6;
+}
+
+#cabinet {
+    position: absolute;
+    z-index: -7;
+}
+
+#backsplash {
+    position: absolute;
+    z-index: -8;
+}
+
+#floor {
+    position: absolute;
+    z-index: -9;
+}
